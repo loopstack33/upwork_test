@@ -15,6 +15,7 @@ import 'components/top_categories.dart';
 import 'models/categories_model.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
